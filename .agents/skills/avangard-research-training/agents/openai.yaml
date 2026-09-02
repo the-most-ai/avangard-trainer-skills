@@ -1,0 +1,13 @@
+interface:
+  display_name: "Ресёрч и интервью — тренажёр"
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "avangard-trainer"
+      description: "AvangardAI voice-training MCP (create_training_profile)"
+      transport: "streamable_http"
+      url: "https://api-trainer.avangardai.ru/mcp"
